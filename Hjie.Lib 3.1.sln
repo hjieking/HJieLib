@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseLib", "BaseLib", "{1581FD55-371E-4D19-8688-6E790154AF19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseLib.IDB", "BaseLib\BaseLib.IDB\BaseLib.IDB.csproj", "{E4214033-6032-4C8A-B4FF-6A7B2A69D5C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MiniNetCore", "MiniNetCore", "{7A0FAB89-EE76-42CA-BA88-FCB032AFB0CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniApp", "MiniNetCore\MiniApp\MiniApp.csproj", "{E18165E6-DE3D-44B8-9C1D-66EA57B27F24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlSugar", "SqlSugar", "{D75C8B0F-DBE1-4739-8C51-83B809458152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hj.SqlSugarFactory", "SqlSugar\Hj.SqlSugarFactory\Hj.SqlSugarFactory.csproj", "{EFB9B366-CEAF-4CA4-87C3-B52BB6A1DB2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hj.SqlSugarFactoryTest", "SqlSugar\Hj.SqlSugarFactoryTest\Hj.SqlSugarFactoryTest.csproj", "{05E13FA9-084F-4335-9C54-970E11692B32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4214033-6032-4C8A-B4FF-6A7B2A69D5C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4214033-6032-4C8A-B4FF-6A7B2A69D5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4214033-6032-4C8A-B4FF-6A7B2A69D5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4214033-6032-4C8A-B4FF-6A7B2A69D5C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18165E6-DE3D-44B8-9C1D-66EA57B27F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18165E6-DE3D-44B8-9C1D-66EA57B27F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18165E6-DE3D-44B8-9C1D-66EA57B27F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18165E6-DE3D-44B8-9C1D-66EA57B27F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB9B366-CEAF-4CA4-87C3-B52BB6A1DB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB9B366-CEAF-4CA4-87C3-B52BB6A1DB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB9B366-CEAF-4CA4-87C3-B52BB6A1DB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB9B366-CEAF-4CA4-87C3-B52BB6A1DB2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E13FA9-084F-4335-9C54-970E11692B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E13FA9-084F-4335-9C54-970E11692B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E13FA9-084F-4335-9C54-970E11692B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E13FA9-084F-4335-9C54-970E11692B32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4214033-6032-4C8A-B4FF-6A7B2A69D5C6} = {1581FD55-371E-4D19-8688-6E790154AF19}
+		{E18165E6-DE3D-44B8-9C1D-66EA57B27F24} = {7A0FAB89-EE76-42CA-BA88-FCB032AFB0CF}
+		{EFB9B366-CEAF-4CA4-87C3-B52BB6A1DB2F} = {D75C8B0F-DBE1-4739-8C51-83B809458152}
+		{05E13FA9-084F-4335-9C54-970E11692B32} = {D75C8B0F-DBE1-4739-8C51-83B809458152}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A69A5ECF-EB9E-4A4D-8FEC-8756B00D9D86}
+	EndGlobalSection
+EndGlobal

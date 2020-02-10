@@ -1,0 +1,8 @@
+E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactory\bin\Debug\netcoreapp3.1\Hj.SqlSugarFactory.deps.json
+E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactory\bin\Debug\netcoreapp3.1\Hj.SqlSugarFactory.dll
+E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactory.csprojAssemblyReference.cache
+E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactory.AssemblyInfoInputs.cache
+E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactory.AssemblyInfo.cs
+E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactory\bin\Debug\netcoreapp3.1\Hj.SqlSugarFactory.pdb
+E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactory.dll
+E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactory.pdb

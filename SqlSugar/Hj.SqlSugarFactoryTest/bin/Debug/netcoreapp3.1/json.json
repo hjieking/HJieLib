@@ -1,0 +1,7 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=219.135.182.2;Database=DGCN.HXCloud.ID4;user id=sa;password=<Dgjy@123456>;MultipleActiveResultSets=true",
+    "LogsConnection": "Server=219.135.182.2;Database=DGCN.HXCloud.ID4.Log;user id=sa;password=<Dgjy@123456>;MultipleActiveResultSets=true",
+    "PermissionConnection": "Server=219.135.182.2;Database=DGCN.HXCDataPermission;user id=sa;password=<Dgjy@123456>;MultipleActiveResultSets=true"
+  }
+}

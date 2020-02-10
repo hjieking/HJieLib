@@ -1,0 +1,11 @@
+E:\SummaryTechnicalPoints\HjieLib\MiniNetCore\MiniApp\bin\Release\netcoreapp3.1\MiniApp.exe
+E:\SummaryTechnicalPoints\HjieLib\MiniNetCore\MiniApp\bin\Release\netcoreapp3.1\MiniApp.deps.json
+E:\SummaryTechnicalPoints\HjieLib\MiniNetCore\MiniApp\bin\Release\netcoreapp3.1\MiniApp.runtimeconfig.json
+E:\SummaryTechnicalPoints\HjieLib\MiniNetCore\MiniApp\bin\Release\netcoreapp3.1\MiniApp.runtimeconfig.dev.json
+E:\SummaryTechnicalPoints\HjieLib\MiniNetCore\MiniApp\bin\Release\netcoreapp3.1\MiniApp.dll
+E:\SummaryTechnicalPoints\HjieLib\MiniNetCore\MiniApp\bin\Release\netcoreapp3.1\MiniApp.pdb
+E:\SummaryTechnicalPoints\HjieLib\MiniNetCore\MiniApp\obj\Release\netcoreapp3.1\MiniApp.csprojAssemblyReference.cache
+E:\SummaryTechnicalPoints\HjieLib\MiniNetCore\MiniApp\obj\Release\netcoreapp3.1\MiniApp.AssemblyInfoInputs.cache
+E:\SummaryTechnicalPoints\HjieLib\MiniNetCore\MiniApp\obj\Release\netcoreapp3.1\MiniApp.AssemblyInfo.cs
+E:\SummaryTechnicalPoints\HjieLib\MiniNetCore\MiniApp\obj\Release\netcoreapp3.1\MiniApp.dll
+E:\SummaryTechnicalPoints\HjieLib\MiniNetCore\MiniApp\obj\Release\netcoreapp3.1\MiniApp.pdb

@@ -1,0 +1,8 @@
+E:\SummaryTechnicalPoints\HjieLib\BaseLib\BaseLib.IDB\bin\Debug\netcoreapp3.1\BaseLib.IDB.deps.json
+E:\SummaryTechnicalPoints\HjieLib\BaseLib\BaseLib.IDB\bin\Debug\netcoreapp3.1\BaseLib.IDB.dll
+E:\SummaryTechnicalPoints\HjieLib\BaseLib\BaseLib.IDB\bin\Debug\netcoreapp3.1\BaseLib.IDB.pdb
+E:\SummaryTechnicalPoints\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\BaseLib.IDB.csprojAssemblyReference.cache
+E:\SummaryTechnicalPoints\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\BaseLib.IDB.AssemblyInfoInputs.cache
+E:\SummaryTechnicalPoints\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\BaseLib.IDB.AssemblyInfo.cs
+E:\SummaryTechnicalPoints\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\BaseLib.IDB.dll
+E:\SummaryTechnicalPoints\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\BaseLib.IDB.pdb

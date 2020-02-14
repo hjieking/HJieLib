@@ -16,14 +16,15 @@ namespace Hj.SqlSugarFactoryTest.Controllers
     [ApiController]
     public class DefaultController : ControllerBase
     {
-        public MySqlSugarClient _db;
+        public SqlSugarClient _db;
         public SqlSugarClient db;
         public DefaultController(ISqlSugarFactory sqlSugarFactory)
         {
-            _db = (MySqlSugarClient)sqlSugarFactory.CreateClient("LogsConnection");//Database=DGCN.HXCloud.ID4  Localhost LogsConnection
+            _db = sqlSugarFactory.CreateClient("LogsConnection");//Database=DGCN.HXCloud.ID4  Localhost LogsConnection
              db = sqlSugarFactory.CreateClient("LogsConnection");
 
-            _db.AopDataLog(db, _db);
+            _db.DataLogAop(db);
+            #region MyRegion
             //_db.Aop.OnDiffLogEvent = it =>
             //{
             //    var editBeforeData = it.BeforeData;
@@ -57,7 +58,30 @@ namespace Hj.SqlSugarFactoryTest.Controllers
             //        OperateTime = DateTime.Now.ToString()
             //    };
             //    db.Insertable(model).ExecuteCommand();
+            //}; 
+            #endregion
+
+            //var model = new Models.DataLog();
+            //_db.Aop.OnLogExecuted = (sql, pars) => //SQL执行完事件
+            //{
+            //    model.ID = Guid.NewGuid();
+
+            //    var aa = _db.Utilities.SerializeObject(pars.ToDictionary(it => it.ParameterName, it => it.Value));
+            //    model.NewValue = aa;
+            //    model.KeyValue = "";
+            //    model.OperateType = "";
+            //    model.OperateTime = DateTime.Now.ToString();
+            //    db.Insertable(model).ExecuteCommand();
             //};
+            //_db.Aop.OnLogExecuting = (sql, pars) => //SQL执行前事件
+            //{
+            //    var aa = _db.Utilities.SerializeObject(pars.ToDictionary(it => it.ParameterName, it => it.Value));
+            //    model.OldValue = aa;
+            //};
+
+            //1、解决方案：重写SqlSugarClient客户端   （1）使用方便（2）要在注入的时候修改
+            //2、解决方案：扩展SqlSugarClient客户端   （1）注入不需要修改（2）但所有方法使用的时候需要执行EnableDiffLogEvent方法
+            //3、解决方案：使用OnLogExecuted          （1）方法执行前后的数据获取不到即使修改也很难
         }
         [HttpGet("Get")]
         public string Get()

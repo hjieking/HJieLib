@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Options;
+﻿using Hj.SqlSugarFactory.Lib;
+using Microsoft.Extensions.Options;
 using SqlSugar;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace Hj.SqlSugarFactory
         }
         public SqlSugarClient CreateClient(string name)
         {
-            var client = new SqlSugarClient(new ConnectionConfig { });
+            var client = new MySqlSugarClient(new ConnectionConfig { });
 
             var option = _optionsMonitor.Get(name).SqlSugarActions.FirstOrDefault();
             if (option != null)

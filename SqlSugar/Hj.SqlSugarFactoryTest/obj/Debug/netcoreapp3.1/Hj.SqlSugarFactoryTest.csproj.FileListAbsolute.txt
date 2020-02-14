@@ -131,5 +131,5 @@ E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactoryTest\bin\Debug\netc
 E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactoryTest\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactoryTest\bin\Debug\netcoreapp3.1\Hj.SqlSugarFactory.dll
 E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactoryTest\bin\Debug\netcoreapp3.1\Hj.SqlSugarFactory.pdb
-E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactoryTest\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactoryTest.MvcApplicationPartsAssemblyInfo.cache
 E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactoryTest\bin\Debug\netcoreapp3.1\json.json
+E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactoryTest\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactoryTest.MvcApplicationPartsAssemblyInfo.cache

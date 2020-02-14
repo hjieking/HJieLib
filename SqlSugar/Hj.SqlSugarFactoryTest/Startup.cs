@@ -37,13 +37,13 @@ namespace Hj.SqlSugarFactoryTest
                 cfg.IsAutoCloseConnection = true;       //默认false, 时候知道关闭数据库连接, 设置为true无需使用using或者Close操作
                 cfg.InitKeyType = SqlSugar.InitKeyType.SystemTable;
             });
-            //services.AddSqlSugar("LogsConnection", cfg =>
-            //{
-            //    cfg.ConnectionString = ConfigurationExtensions.GetConnectionString(Cfg, "LogsConnection") ?? "";//必填, 数据库连接字符串
-            //    cfg.DbType = SqlSugar.DbType.SqlServer;         //必填, 数据库类型
-            //    cfg.IsAutoCloseConnection = true;       //默认false, 时候知道关闭数据库连接, 设置为true无需使用using或者Close操作
-            //    cfg.InitKeyType = SqlSugar.InitKeyType.SystemTable;    //默认SystemTable, 字段信息读取, 如：该属性是不是主键，是不是标识列等等信息
-            //});
+            services.AddSqlSugar("LogsConnection", cfg =>
+            {
+                cfg.ConnectionString = ConfigurationExtensions.GetConnectionString(Cfg, "LogsConnection") ?? "";//必填, 数据库连接字符串
+                cfg.DbType = SqlSugar.DbType.SqlServer;         //必填, 数据库类型
+                cfg.IsAutoCloseConnection = true;       //默认false, 时候知道关闭数据库连接, 设置为true无需使用using或者Close操作
+                cfg.InitKeyType = SqlSugar.InitKeyType.SystemTable;    //默认SystemTable, 字段信息读取, 如：该属性是不是主键，是不是标识列等等信息
+            });
 
             //services.AddSingleton<IMessageService, EmailService>();
             services.AddMessage(option=> {

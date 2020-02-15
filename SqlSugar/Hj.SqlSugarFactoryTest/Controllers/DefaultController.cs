@@ -16,14 +16,18 @@ namespace Hj.SqlSugarFactoryTest.Controllers
     [ApiController]
     public class DefaultController : ControllerBase
     {
-        public SqlSugarClient _db;
+        public MySqlSugarClient _db;
         public SqlSugarClient db;
         public DefaultController(ISqlSugarFactory sqlSugarFactory)
         {
-            _db = sqlSugarFactory.CreateClient("LogsConnection");//Database=DGCN.HXCloud.ID4  Localhost LogsConnection
-             db = sqlSugarFactory.CreateClient("LogsConnection");
+            _db = (MySqlSugarClient)sqlSugarFactory.CreateClient("Localhost");//Database=DGCN.HXCloud.ID4  Localhost LogsConnection
+            db = sqlSugarFactory.CreateClient("Localhost");
 
-            _db.DataLogAop(db);
+            //方案1  重写SqlSugarClient客户端
+            _db.AopDataLog(db, _db);
+
+            //方案2
+            //_db.AopDataLogExtentions(db);
             #region MyRegion
             //_db.Aop.OnDiffLogEvent = it =>
             //{
@@ -122,7 +126,7 @@ namespace Hj.SqlSugarFactoryTest.Controllers
 
             _apiLog.ClientIP = "33333";
             var list= new List<string>() { "ClientIP" };
-            _db.Updateable(_apiLog).Where(x => x.ALgID == 76912).UpdateColumns(list.ToArray()).ExecuteCommand();
+            _db.Updateable(_apiLog).Where(x => x.ALgID == 5).UpdateColumns(list.ToArray()).ExecuteCommand();
 
 
            _db.Deleteable<ApiLog>(x => x.ALgID == 76917).ExecuteCommand();

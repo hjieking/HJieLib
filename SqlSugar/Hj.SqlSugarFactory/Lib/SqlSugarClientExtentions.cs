@@ -9,7 +9,13 @@ namespace Hj.SqlSugarFactory.Lib
 {
     public static class SqlSugarClientExtentions
     {
-        public static void DataLogAop(this SqlSugarClient sqlSugarClient, SqlSugarClient dbDataLog)
+        /// <summary>
+        /// 启用数据日志记录
+        /// 2、解决方案：扩展SqlSugarClient客户端  （1）注入不需要修改（2）但所有方法使用的时候需要执行EnableDiffLogEvent方法
+        /// </summary>
+        /// <param name="sqlSugarClient"></param>
+        /// <param name="dbDataLog"></param>
+        public static void AopDataLogExtentions(this SqlSugarClient sqlSugarClient, SqlSugarClient dbDataLog)
         {
             //var model = new DataLog();
             //sqlSugarClient.Aop.OnLogExecuted = (sql, pars) => //SQL执行完事件

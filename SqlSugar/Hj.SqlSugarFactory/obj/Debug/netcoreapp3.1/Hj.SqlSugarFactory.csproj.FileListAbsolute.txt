@@ -6,3 +6,11 @@ E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcorea
 E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactory\bin\Debug\netcoreapp3.1\Hj.SqlSugarFactory.pdb
 E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactory.dll
 E:\SummaryTechnicalPoints\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactory.pdb
+D:\NetCoreStudty\HjieLib\SqlSugar\Hj.SqlSugarFactory\bin\Debug\netcoreapp3.1\Hj.SqlSugarFactory.deps.json
+D:\NetCoreStudty\HjieLib\SqlSugar\Hj.SqlSugarFactory\bin\Debug\netcoreapp3.1\Hj.SqlSugarFactory.dll
+D:\NetCoreStudty\HjieLib\SqlSugar\Hj.SqlSugarFactory\bin\Debug\netcoreapp3.1\Hj.SqlSugarFactory.pdb
+D:\NetCoreStudty\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactory.AssemblyInfoInputs.cache
+D:\NetCoreStudty\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactory.AssemblyInfo.cs
+D:\NetCoreStudty\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactory.dll
+D:\NetCoreStudty\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactory.pdb
+D:\NetCoreStudty\HjieLib\SqlSugar\Hj.SqlSugarFactory\obj\Debug\netcoreapp3.1\Hj.SqlSugarFactory.csprojAssemblyReference.cache

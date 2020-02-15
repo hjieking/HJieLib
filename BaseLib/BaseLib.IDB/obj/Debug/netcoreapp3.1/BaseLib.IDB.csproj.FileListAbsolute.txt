@@ -6,3 +6,10 @@ E:\SummaryTechnicalPoints\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\Ba
 E:\SummaryTechnicalPoints\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\BaseLib.IDB.AssemblyInfo.cs
 E:\SummaryTechnicalPoints\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\BaseLib.IDB.dll
 E:\SummaryTechnicalPoints\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\BaseLib.IDB.pdb
+D:\NetCoreStudty\HjieLib\BaseLib\BaseLib.IDB\bin\Debug\netcoreapp3.1\BaseLib.IDB.deps.json
+D:\NetCoreStudty\HjieLib\BaseLib\BaseLib.IDB\bin\Debug\netcoreapp3.1\BaseLib.IDB.dll
+D:\NetCoreStudty\HjieLib\BaseLib\BaseLib.IDB\bin\Debug\netcoreapp3.1\BaseLib.IDB.pdb
+D:\NetCoreStudty\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\BaseLib.IDB.AssemblyInfoInputs.cache
+D:\NetCoreStudty\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\BaseLib.IDB.AssemblyInfo.cs
+D:\NetCoreStudty\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\BaseLib.IDB.dll
+D:\NetCoreStudty\HjieLib\BaseLib\BaseLib.IDB\obj\Debug\netcoreapp3.1\BaseLib.IDB.pdb

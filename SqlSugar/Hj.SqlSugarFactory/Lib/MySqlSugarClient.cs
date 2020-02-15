@@ -13,7 +13,8 @@ namespace Hj.SqlSugarFactory.Lib
         {
         }
         /// <summary>
-        /// 进行数据日志测试
+        /// 启用数据日志记录
+        /// 1、解决方案：重写SqlSugarClient客户端   （1）使用方便（2）要在注入的时候修改
         /// </summary>
         /// <param name="sqlSugarClient">记录数据日志客户端</param>
         /// <param name="mySqlSugarClient">控制器使用的客户端</param>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SummaryTechnicalPoints\\HjieLib\\BaseLib\\BaseLib.IDB\\BaseLib.IDB.csproj": {}
+    "D:\\NetCoreStudty\\HjieLib\\BaseLib\\BaseLib.IDB\\BaseLib.IDB.csproj": {}
   },
   "projects": {
-    "E:\\SummaryTechnicalPoints\\HjieLib\\BaseLib\\BaseLib.IDB\\BaseLib.IDB.csproj": {
+    "D:\\NetCoreStudty\\HjieLib\\BaseLib\\BaseLib.IDB\\BaseLib.IDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SummaryTechnicalPoints\\HjieLib\\BaseLib\\BaseLib.IDB\\BaseLib.IDB.csproj",
+        "projectUniqueName": "D:\\NetCoreStudty\\HjieLib\\BaseLib\\BaseLib.IDB\\BaseLib.IDB.csproj",
         "projectName": "BaseLib.IDB",
-        "projectPath": "E:\\SummaryTechnicalPoints\\HjieLib\\BaseLib\\BaseLib.IDB\\BaseLib.IDB.csproj",
+        "projectPath": "D:\\NetCoreStudty\\HjieLib\\BaseLib\\BaseLib.IDB\\BaseLib.IDB.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\SummaryTechnicalPoints\\HjieLib\\BaseLib\\BaseLib.IDB\\obj\\",
+        "outputPath": "D:\\NetCoreStudty\\HjieLib\\BaseLib\\BaseLib.IDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

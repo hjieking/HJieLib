@@ -45,13 +45,12 @@ namespace Hj.SqlSugarFactory.Lib
                 var model = new DataLog()
                 {
                     ID = Guid.NewGuid(),
-                    TableName=data.ToString(),
-                    //KeyValues = data.ToString(),
-                    OldValues = oldValueJson != "" ? oldValueJson : null,
-                    NewValues = newValueJson != "" ? newValueJson : null,
+                    KeyValue = data.ToString(),
+                    OldValue = oldValueJson != "" ? oldValueJson : null,
+                    NewValue = newValueJson != "" ? newValueJson : null,
                     OperateType = diffType.ToString(),
                     UserName = "test",
-                    OperateTime = DateTime.Now
+                    OperateTime = DateTime.Now.ToString()
                 };
                 sqlSugarClient.Insertable(model).ExecuteCommand();
             };

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NetCoreStudty\\HjieLib\\SqlSugar\\Hj.SqlSugarFactoryTest\\Hj.SqlSugarFactoryTest.csproj": {}
+    "E:\\SummaryTechnicalPoints\\HjieLib\\SqlSugar\\Hj.SqlSugarFactoryTest\\Hj.SqlSugarFactoryTest.csproj": {}
   },
   "projects": {
-    "D:\\NetCoreStudty\\HjieLib\\SqlSugar\\Hj.SqlSugarFactoryTest\\Hj.SqlSugarFactoryTest.csproj": {
+    "E:\\SummaryTechnicalPoints\\HjieLib\\SqlSugar\\Hj.SqlSugarFactoryTest\\Hj.SqlSugarFactoryTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NetCoreStudty\\HjieLib\\SqlSugar\\Hj.SqlSugarFactoryTest\\Hj.SqlSugarFactoryTest.csproj",
+        "projectUniqueName": "E:\\SummaryTechnicalPoints\\HjieLib\\SqlSugar\\Hj.SqlSugarFactoryTest\\Hj.SqlSugarFactoryTest.csproj",
         "projectName": "Hj.SqlSugarFactoryTest",
-        "projectPath": "D:\\NetCoreStudty\\HjieLib\\SqlSugar\\Hj.SqlSugarFactoryTest\\Hj.SqlSugarFactoryTest.csproj",
+        "projectPath": "E:\\SummaryTechnicalPoints\\HjieLib\\SqlSugar\\Hj.SqlSugarFactoryTest\\Hj.SqlSugarFactoryTest.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\NetCoreStudty\\HjieLib\\SqlSugar\\Hj.SqlSugarFactoryTest\\obj\\",
+        "outputPath": "E:\\SummaryTechnicalPoints\\HjieLib\\SqlSugar\\Hj.SqlSugarFactoryTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\NetCoreStudty\\HjieLib\\SqlSugar\\Hj.SqlSugarFactory\\Hj.SqlSugarFactory.csproj": {
-                "projectPath": "D:\\NetCoreStudty\\HjieLib\\SqlSugar\\Hj.SqlSugarFactory\\Hj.SqlSugarFactory.csproj"
+              "E:\\SummaryTechnicalPoints\\HjieLib\\SqlSugar\\Hj.SqlSugarFactory\\Hj.SqlSugarFactory.csproj": {
+                "projectPath": "E:\\SummaryTechnicalPoints\\HjieLib\\SqlSugar\\Hj.SqlSugarFactory\\Hj.SqlSugarFactory.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\NetCoreStudty\\HjieLib\\SqlSugar\\Hj.SqlSugarFactory\\Hj.SqlSugarFactory.csproj": {
+    "E:\\SummaryTechnicalPoints\\HjieLib\\SqlSugar\\Hj.SqlSugarFactory\\Hj.SqlSugarFactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NetCoreStudty\\HjieLib\\SqlSugar\\Hj.SqlSugarFactory\\Hj.SqlSugarFactory.csproj",
+        "projectUniqueName": "E:\\SummaryTechnicalPoints\\HjieLib\\SqlSugar\\Hj.SqlSugarFactory\\Hj.SqlSugarFactory.csproj",
         "projectName": "Hj.SqlSugarFactory",
-        "projectPath": "D:\\NetCoreStudty\\HjieLib\\SqlSugar\\Hj.SqlSugarFactory\\Hj.SqlSugarFactory.csproj",
+        "projectPath": "E:\\SummaryTechnicalPoints\\HjieLib\\SqlSugar\\Hj.SqlSugarFactory\\Hj.SqlSugarFactory.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\NetCoreStudty\\HjieLib\\SqlSugar\\Hj.SqlSugarFactory\\obj\\",
+        "outputPath": "E:\\SummaryTechnicalPoints\\HjieLib\\SqlSugar\\Hj.SqlSugarFactory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

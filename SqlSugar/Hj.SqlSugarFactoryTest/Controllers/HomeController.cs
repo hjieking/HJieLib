@@ -19,8 +19,8 @@ namespace Hj.SqlSugarFactoryTest.Controllers
         public SqlSugarClient db;
         public HomeController(ISqlSugarFactory sqlSugarFactory)
         {
-            _db = sqlSugarFactory.CreateClient("Localhost");//Database=DGCN.HXCloud.ID4  Localhost LogsConnection
-            db = sqlSugarFactory.CreateClient("Localhost");
+            _db = sqlSugarFactory.CreateClient("LogsConnection");//Database=DGCN.HXCloud.ID4  Localhost LogsConnection
+            db = sqlSugarFactory.CreateClient("LogsConnection");
 
 
             //方案2  扩展SqlSugarClient客户端
@@ -67,14 +67,15 @@ namespace Hj.SqlSugarFactoryTest.Controllers
                 AccessParameterPost = "",
                 HttpStatus = 200
             };
-            _db.Insertable(_apiLog).EnableDiffLogEvent("ApiLog").ExecuteCommand();
+            //_db.Insertable(_apiLog).EnableDiffLogEvent("ApiLog").ExecuteCommand();
 
             _apiLog.ClientIP = "33333";
             var list = new List<string>() { "ClientIP" };
-            _db.Updateable(_apiLog).Where(x => x.ALgID == 5).UpdateColumns(list.ToArray()).EnableDiffLogEvent("ApiLog").ExecuteCommand();
+            // _db.Updateable(_apiLog).Where(x => x.ALgID >= 76997).UpdateColumns(list.ToArray()).EnableDiffLogEvent("ApiLog").ExecuteCommand();
 
+            var dt = _db.Ado.ExecuteCommand("delete ApiLog where   ALgID >=76994");
 
-            _db.Deleteable<ApiLog>(x => x.ALgID == 76917).EnableDiffLogEvent("ApiLog").ExecuteCommand();
+            _db.Deleteable<ApiLog>(x => x.ALgID >= 76997).EnableDiffLogEvent("ApiLog").ExecuteCommand();
             return "string";
         }
     }

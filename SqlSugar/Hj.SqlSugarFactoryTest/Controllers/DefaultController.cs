@@ -20,8 +20,8 @@ namespace Hj.SqlSugarFactoryTest.Controllers
         public SqlSugarClient db;
         public DefaultController(ISqlSugarFactory sqlSugarFactory)
         {
-            _db = (MySqlSugarClient)sqlSugarFactory.CreateClient("Localhost");//Database=DGCN.HXCloud.ID4  Localhost LogsConnection
-            db = sqlSugarFactory.CreateClient("Localhost");
+            _db = (MySqlSugarClient)sqlSugarFactory.CreateClient("LogsConnection");//Database=DGCN.HXCloud.ID4  Localhost LogsConnection
+            db = sqlSugarFactory.CreateClient("LogsConnection");
 
             //方案1  重写SqlSugarClient客户端
             _db.AopDataLog(db, _db);
@@ -122,14 +122,21 @@ namespace Hj.SqlSugarFactoryTest.Controllers
                 AccessParameterPost = "",
                 HttpStatus = 200
             };
-            _db.Insertable(_apiLog).ExecuteCommand();
+            //_db.Insertable(_apiLog).ExecuteCommand();
 
             _apiLog.ClientIP = "33333";
             var list= new List<string>() { "ClientIP" };
-            _db.Updateable(_apiLog).Where(x => x.ALgID == 5).UpdateColumns(list.ToArray()).ExecuteCommand();
+            //_db.Updateable(_apiLog).Where(x => x.ALgID >= 77001).UpdateColumns(list.ToArray()).ExecuteCommand();
 
 
-           _db.Deleteable<ApiLog>(x => x.ALgID == 76917).ExecuteCommand();
+            //var dt = _db.Ado.ExecuteCommand("update ApiLog set ClientIP=@ClientIP where ALgID>=76994",
+            //    new List<SugarParameter>(){
+            //      new SugarParameter("@ClientIP","aaaa") //参数
+            //    });
+
+            var dt = _db.Ado.ExecuteCommand("delete ApiLog where   ALgID >=76994");
+
+            //_db.Deleteable<ApiLog>(x => x.ALgID >= 76997).ExecuteCommand();
             return "string";
         }
     }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NetCoreStudty\\HjieLib\\MiniNetCore\\MiniApp\\MiniApp.csproj",
+      "projectUniqueName": "E:\\SummaryTechnicalPoints\\HjieLib\\MiniNetCore\\MiniApp\\MiniApp.csproj",
       "projectName": "MiniApp",
-      "projectPath": "D:\\NetCoreStudty\\HjieLib\\MiniNetCore\\MiniApp\\MiniApp.csproj",
+      "projectPath": "E:\\SummaryTechnicalPoints\\HjieLib\\MiniNetCore\\MiniApp\\MiniApp.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\NetCoreStudty\\HjieLib\\MiniNetCore\\MiniApp\\obj\\",
+      "outputPath": "E:\\SummaryTechnicalPoints\\HjieLib\\MiniNetCore\\MiniApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

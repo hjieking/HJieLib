@@ -12,21 +12,17 @@ namespace Hj.SqlSugarFactory
     {
         public Guid? ID { get; set; }
         /// <summary>
-        /// 表名
+        /// 功能模块（操作表名）
         /// </summary>
-        public string TableName { get; set; }
+        public string KeyValue { get; set; }
         /// <summary>
-        /// 操作模型主键
+        /// 修改前的值
         /// </summary>
-        public string KeyValues { get; set; }
+        public string OldValue { get; set; }
         /// <summary>
-        /// 操作前模型值
+        /// 修改后的值
         /// </summary>
-        public string OldValues { get; set; }
-        /// <summary>
-        /// 操作后模型值
-        /// </summary>
-        public string NewValues { get; set; }
+        public string NewValue { get; set; }
         /// <summary>
         /// 操作类型（insert、update、delete）
         /// </summary>
@@ -42,6 +38,6 @@ namespace Hj.SqlSugarFactory
         /// <summary>
         /// 操作时间
         /// </summary>
-        public DateTime OperateTime { get; set; }
+        public string OperateTime { get; set; }
     }
 }

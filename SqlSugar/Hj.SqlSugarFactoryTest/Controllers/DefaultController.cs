@@ -103,7 +103,9 @@ namespace Hj.SqlSugarFactoryTest.Controllers
                 AccessParameterPost = "",
                 HttpStatus = 200
             };
+            //
             _db.Insertable(_apiLog).ExecuteCommand();
+            //
             return "string";
         }
         [HttpGet("GetApi")]
@@ -124,9 +126,20 @@ namespace Hj.SqlSugarFactoryTest.Controllers
             };
             //_db.Insertable(_apiLog).ExecuteCommand();
 
+
+            _db.Aop.OnLogExecuted = (sql, pars) => //SQL执行完事件
+            {
+                var aa = _db.Utilities.SerializeObject(pars.ToDictionary(it => it.ParameterName, it => it.Value));
+            };
+            _db.Aop.OnLogExecuting = (sql, pars) => //SQL执行前事件
+            {
+                var aa = _db.Utilities.SerializeObject(pars.ToDictionary(it => it.ParameterName, it => it.Value));
+            };
+            _db.Ado.IsEnableLogEvent = true;
+
             _apiLog.ClientIP = "33333";
             var list= new List<string>() { "ClientIP" };
-            //_db.Updateable(_apiLog).Where(x => x.ALgID >= 77001).UpdateColumns(list.ToArray()).ExecuteCommand();
+            _db.Updateable(_apiLog).Where(x => x.ALgID >= 77001).UpdateColumns(list.ToArray()).ExecuteCommand();
 
 
             //var dt = _db.Ado.ExecuteCommand("update ApiLog set ClientIP=@ClientIP where ALgID>=76994",
@@ -134,7 +147,9 @@ namespace Hj.SqlSugarFactoryTest.Controllers
             //      new SugarParameter("@ClientIP","aaaa") //参数
             //    });
 
-            var dt = _db.Ado.ExecuteCommand("delete ApiLog where   ALgID >=76994");
+            //var dt = _db.Ado.ExecuteCommand("delete ApiLog where   ALgID >=@ALgID", new  List<SugarParameter>(){ 
+            //   new SugarParameter("@ALgID", "76994")
+            //});
 
             //_db.Deleteable<ApiLog>(x => x.ALgID >= 76997).ExecuteCommand();
             return "string";

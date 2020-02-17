@@ -1,0 +1,11 @@
+E:\SummaryTechnicalPoints\HjieLib\DataOperationLog\Hj.DataLog\bin\Debug\netcoreapp3.1\Hj.DataLog.deps.json
+E:\SummaryTechnicalPoints\HjieLib\DataOperationLog\Hj.DataLog\bin\Debug\netcoreapp3.1\Hj.DataLog.dll
+E:\SummaryTechnicalPoints\HjieLib\DataOperationLog\Hj.DataLog\bin\Debug\netcoreapp3.1\Hj.DataLog.pdb
+E:\SummaryTechnicalPoints\HjieLib\DataOperationLog\Hj.DataLog\bin\Debug\netcoreapp3.1\Hj.SqlSugarFactory.dll
+E:\SummaryTechnicalPoints\HjieLib\DataOperationLog\Hj.DataLog\bin\Debug\netcoreapp3.1\Hj.SqlSugarFactory.pdb
+E:\SummaryTechnicalPoints\HjieLib\DataOperationLog\Hj.DataLog\obj\Debug\netcoreapp3.1\Hj.DataLog.csprojAssemblyReference.cache
+E:\SummaryTechnicalPoints\HjieLib\DataOperationLog\Hj.DataLog\obj\Debug\netcoreapp3.1\Hj.DataLog.AssemblyInfoInputs.cache
+E:\SummaryTechnicalPoints\HjieLib\DataOperationLog\Hj.DataLog\obj\Debug\netcoreapp3.1\Hj.DataLog.AssemblyInfo.cs
+E:\SummaryTechnicalPoints\HjieLib\DataOperationLog\Hj.DataLog\obj\Debug\netcoreapp3.1\Hj.DataLog.csproj.CopyComplete
+E:\SummaryTechnicalPoints\HjieLib\DataOperationLog\Hj.DataLog\obj\Debug\netcoreapp3.1\Hj.DataLog.dll
+E:\SummaryTechnicalPoints\HjieLib\DataOperationLog\Hj.DataLog\obj\Debug\netcoreapp3.1\Hj.DataLog.pdb
